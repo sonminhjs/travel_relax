@@ -63,9 +63,14 @@ include('dbcon.php');
     </table>
     </center>
     <?php
-    $r = $_GET['room'];
-    $ci = $_GET['ci'];
-    $co = $_GET['co'];
+    $r = '';
+    if(isset($_GET['sub'])) {
+        $r = $_GET['room'];
+        $ci = $_GET['ci'];
+        $co = $_GET['co'];
+    }
+    echo "test";
+   echo $r ;
     ?>
     <!---------------------------------  delux ac--------------------- -->
 

@@ -12,7 +12,7 @@ include('header.php');
         <table>
           <tr>
             <a sisplay="center" width="20%" height="50px" style=" font-size: 1.5rem;">Check Hall Avaibility</a>
-            <td rowspan="2"><input type="submit" name="sub" value="Check" required></td>
+            <td rowspan="2"><button type="submit" name="sub" value="Check" required class="bookinghall">Check</button>
           </tr>
           <tr>
             <td width="20%" height="50px">

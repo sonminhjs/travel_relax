@@ -98,7 +98,9 @@ $h = $_POST['hall'];
         <br>
         <tr>
           <td>Booking Date:</td>
-          <td><input type="date" name="date" value="<?php echo $h; ?>" disabled="disabled" title="Check in" required></td>
+          <!-- <td><input type="date" name="date" value="<?php echo $h; ?>" disabled="disabled" title="Check in" required></td> 
+        -->
+        <td><input type="date" name="date" value="<?php echo $h; ?>" title="Check in" required></td>
 
         </tr>
         <br>

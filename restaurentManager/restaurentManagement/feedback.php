@@ -17,7 +17,7 @@ include('dbcon.php');
     if (isset($_POST['submit'])) {
         $name = $_POST['name'];
         $feedback = $_POST['feedback'];
-
+ 
         $qry = "INSERT INTO `feedback`(`id`, `name`, `feedback`) VALUES ('','$name','$feedback')";
         $run = mysqli_query($sql, $qry);
         if ($run == true) {

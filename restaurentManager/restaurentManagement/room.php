@@ -65,6 +65,7 @@ include('dbcon.php');
     <?php
     $r = '';
     if (isset($_GET['sub'])) {
+
         $r = $_GET['room'];
         $ci = $_GET['ci'];
         $co = $_GET['co'];

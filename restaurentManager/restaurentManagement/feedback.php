@@ -12,6 +12,7 @@ include('dbcon.php');
         <input style="border-radius: 5px;" type="text" name="name" placeholder="Enter Name" class="feedback">
         <input style="border-radius: 5px;" type="text" name="feedback" placeholder="Enter Feedback" class="feedback">
         <input style="border-radius: 5px;cursor: pointer;" width="1rem" type="submit" name="submit" class="feedback">
+
     </form>
     <?php
     if (isset($_POST['submit'])) {

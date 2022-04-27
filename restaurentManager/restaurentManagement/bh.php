@@ -1,6 +1,9 @@
 <?php
 include('dbcon.php');
-$h = $_POST['hall'];
+$h='';
+if(isset($_POST['hall'])){
+  $h = $_POST['hall'];
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">

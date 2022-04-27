@@ -9,7 +9,7 @@ include('header.php');
             <i class="fas fa-hamburger"></i>
         </div>
         <div class="book-h1">
-            <h1>BOOK YOUR HOTEL TODAY</h1>
+            <h1>Book Your Hotel Today</h1>
         </div>
         <div class="book-p">
             <!-- <p>Hotels.com Customer Care Number, Contact Address, Email Id. Hotels.com is an <br> Indian Most Popular Online Hotel Booking Platforms. Many Indian’s looking for the contact.</p> -->
@@ -56,7 +56,7 @@ include('header.php');
                     <textarea name="message" id="message" cols="20" rows="6"></textarea>
                 </div>
                 <div class="form-group-con">
-                    <button class="con-btn" name="con-btn">Submit</button>
+                    <button style="cursor: pointer;" class="con-btn" name="con-btn">Submit</button>
                 </div>
             </form>
             <?php

@@ -1,6 +1,9 @@
 <?php
 include('dbcon.php');
-$h = $_POST['hall'];
+$h = '';
+if (isset($_POST['hall'])) {
+  $h = $_POST['hall'];
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -9,7 +12,7 @@ $h = $_POST['hall'];
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Book-hall form</title>
+  <title>Book hall form</title>
 </head>
 <style>
   #foem-1 {
@@ -98,7 +101,9 @@ $h = $_POST['hall'];
         <br>
         <tr>
           <td>Booking Date:</td>
-          <td><input type="date" name="date" value="<?php echo $h; ?>" disabled="disabled" title="Check in" required></td>
+          <!-- <td><input type="date" name="date" value="..." disabled="disabled" title="Check in" required></td> 
+        -->
+          <td><input type="date" name="date" value="<?php echo $h; ?>" title="Check in" required></td>
 
         </tr>
         <br>
@@ -113,7 +118,7 @@ $h = $_POST['hall'];
         </tr>
         <br>
         <td>
-        <td><input style="width:120px; height:30px; border-radius:20px; opacity:0.7;" type="submit" name="submit" value=submit></td>
+        <td><input style="width:120px; height:30px; border-radius:20px; opacity:0.7;cursor: pointer;" type="submit" name="submit" value=submit></td>
         </td>
 
       <?php

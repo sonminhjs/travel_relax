@@ -50,7 +50,7 @@ session_start();
             <p class="sectionTag">A.C Delux Room</p>
             <p class="sectionsubTag font">We have the best services provider in Room Management. with 24 hours room services and 24 hours check-out. We provide world class services in very low cost. i.e. 1100rs.</p>
             <p class="price">Price per room : 1100Rs/-</p>
-            <a href="room.php"><button style="border-radius: 5px;" class="price-btn ">Book A Room</button></a>
+            <a href="room.php"><button style="border-radius: 5px;cursor: pointer;" class="price-btn ">Book A Room</button></a>
         </div>
         <div class="thumbnail">
             <img src="img/deluxroom.jpg" alt="delux" class="imgFluid">
@@ -62,7 +62,7 @@ session_start();
             <p class="sectionTag">A.C. Room</p>
             <p class="sectionsubTag font">We have the best services provider in Room Management. with 24 hours room services and 24 hours check-out. We provide world class services in very low cost. i.e. 900rs.</p>
             <p class="price">Price per room : 900Rs/-</p>
-            <a href="room.php"><button style="border-radius: 5px;" class="price-btn">Book A Room</button></a>
+            <a href="room.php"><button style="border-radius: 5px;cursor: pointer;" class="price-btn">Book A Room</button></a>
         </div>
         <div class="thumbnail">
             <img src="img/ac4.jpg" alt="delux" class="imgFluidd">
@@ -74,7 +74,7 @@ session_start();
             <p class="sectionTag">Non A.C. Room</p>
             <p class="sectionsubTag font">We have the best services provider in Room Management. with 24 hours room services and 24 hours check-out. We provide world class services in very low cost. i.e. 700rs.</p>
             <p class="price">Price per room : 700Rs/-</p>
-            <a href="room.php"><button class="price-btn" style="border-radius: 5px;">Book A Room</button></a>
+            <a href="room.php"><button class="price-btn" style="border-radius: 5px;cursor: pointer;">Book A Room</button></a>
         </div>
         <div class="thumbnail">
             <img src="img/nonacroom.jpg" alt="delux" class="imgFluid">
@@ -147,7 +147,7 @@ session_start();
                     <a href="room.php">Rooms</a>
                     <a href="contact.php">Contact Us</a>
                     <a href="food.php">Food</a>
-                    <a href="booking.php">Booking</a>
+                    <a href="bookinghall.php">Booking</a>
                     <a href="index.php">Home</a>
                 </div>
                 <div class="footer-center">

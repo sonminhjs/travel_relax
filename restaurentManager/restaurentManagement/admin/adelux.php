@@ -90,7 +90,7 @@ include('../dbcon.php');
     <h1>Delux AC Rooms insert Section</h1>
     <div class="imgg">
         <img src="../img/acroom2.jpg" alt="delux ac">
-        <img src="../img/acroom2.jpg" alt="delux ac">
+        <img src="../img/delux3.jpg" alt="delux ac">
     </div>
 
     <div class="delux-insert">
@@ -115,7 +115,7 @@ include('../dbcon.php');
 
 
                 <td>
-                <td><input type="submit" id="delux-btn" name="submit" value=Insert></td>
+                <td><input style="cursor: pointer;" type="submit" id="delux-btn" name="submit" value=Insert></td>
                 </td>
             </table>
         </form>

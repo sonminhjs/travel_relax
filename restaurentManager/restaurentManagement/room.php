@@ -31,7 +31,7 @@ include('dbcon.php');
                     <th width="20%" height="50px" required>Arrivals-Date</th>
                     <th width="20%" height="50px" required>Leavings-Date</th>
                     <th width="20%" height="50px">Room</th>
-                    <td rowspan="2"><input style="border-radius : 5px;" type="submit" name="sub" id="check-btn" value="Check"></td>
+                    <td rowspan="2"><input style="border-radius : 5px;cursor: pointer;" type="submit" name="sub" id="check-btn" value="Check"></td>
                 </tr>
                 <tr>
 
@@ -42,7 +42,7 @@ include('dbcon.php');
                         <center><input type="date" name="co" required></center>
                     </td>
                     <td width="20%" height="50px">
-                        <center> <select style="background-color: pink;" name="room">
+                        <center> <select style="background-color: pink;cursor: pointer;" name="room">
                                 <option>Select</option>
                                 <option>1</option>
                                 <option>2</option>
@@ -63,9 +63,14 @@ include('dbcon.php');
     </table>
     </center>
     <?php
-    $r = $_GET['room'];
-    $ci = $_GET['ci'];
-    $co = $_GET['co'];
+    $r = '';
+    if (isset($_GET['sub'])) {
+        $r = $_GET['room'];
+        $ci = $_GET['ci'];
+        $co = $_GET['co'];
+    }
+    // echo "test";
+    echo $r;
     ?>
     <!---------------------------------  delux ac--------------------- -->
 
@@ -90,7 +95,7 @@ include('dbcon.php');
                     <input type="date" name="co" value="<?php echo $co; ?>" required>
                     <input type="text" name="rt" value="Delux AC" required>
                     <input type="text" name="nr" value="<?php echo $r; ?>" required>
-                    <input style="border-radius : 5px;" type="submit" id="room-btn">
+                    <input style="border-radius : 5px;cursor: pointer;" type="submit" id="room-btn">
                 </form>
                 <br>
                 <!-- <a href="r1.php">Book A Room</a> -->
@@ -135,7 +140,7 @@ include('dbcon.php');
                     <input type="date" name="co" value="<?php echo $co; ?>" required>
                     <input type="text" name="rt" value="A.C. Room" required>
                     <input type="text" name="nr" value="<?php echo $r; ?>" required>
-                    <input style="border-radius : 5px;" type="submit" id="room-btn">
+                    <input style="border-radius : 5px;cursor: pointer;" type="submit" id="room-btn">
                 </form>
                 <br>
                 <!-- <a href="r1.php">Book A Room</a> -->
@@ -180,7 +185,7 @@ include('dbcon.php');
                     <input type="date" name="co" value="<?php echo $co; ?>" required>
                     <input type="text" name="rt" value="Non AC" required>
                     <input type="text" name="nr" value="<?php echo $r; ?>" required>
-                    <input style="border-radius : 5px;" type="submit" id="room-btn">
+                    <input style="border-radius : 5px;cursor: pointer;" type="submit" id="room-btn">
                 </form>
                 <br>
                 <!-- <a href="r1.php">Book A Room</a> -->

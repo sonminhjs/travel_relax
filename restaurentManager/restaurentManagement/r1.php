@@ -58,7 +58,7 @@ $nr = $_GET['nr'];
     <div id="r1-container">
         <h1>Please Fill Up The Form Given Below</h1>
         <form action="r1.php" method="post">
-            <h1>BOOK NOW</h1>
+            <h1>Book now</h1>
             <table>
                 <tr>
                     <td>Status</td>
@@ -66,7 +66,7 @@ $nr = $_GET['nr'];
                 </tr>
 
                 <tr>
-                    <td>name</td>
+                    <td>Name</td>
                     <td><input type="text" name="name" title="name" required></td>
                 </tr>
                 <tr>
@@ -86,9 +86,9 @@ $nr = $_GET['nr'];
                     <td><input type="email" name="email" title="email" required></td>
                 </tr>
                 <tr>
-                    <td>Check in Date</td>
+                    <td>Arrivals Date</td>
                     <td><input type="date" name="cin" title="cindate" value="<?php echo $ci; ?>"> </td>
-                    <td>Check out Date</td>
+                    <td>Leavings Date</td>
                     <td><input type="date" name="cout" title="coutdate" value="<?php echo $co; ?>"></td>
                 </tr>
                 <tr>
@@ -105,7 +105,7 @@ $nr = $_GET['nr'];
                 </tr>
                 <tr>
 
-                    <td><input type="submit" name="submit" value="submit"></td>
+                    <td><input style="cursor: pointer;background-color : green;color:pink;" type="submit" name="submit" value="submit"></td>
                 </tr>
             </table>
             <?php

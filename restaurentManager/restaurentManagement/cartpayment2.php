@@ -82,22 +82,23 @@ session_start();
 
 <body>
     <div class="img">
-        <img src="img/paytm.png" alt="paytm">
+        <img src="img/visa.jpg" alt="paytm">
         <img src="img/hdfc.jpg" alt="hdfc">
+        <img src="img/tourist_visa.jpg" alt="tourist_visa">
     </div>
     <div class="payment-container">
         <h1 class="payment-h1">Enter Details</h1>
         <form action="" method="post">
             <div class="form-payment">
-                <label>Card Number</label>
+                <label>Card Number &emsp;</label>
                 <input type="number" name="cardno" class="form-control" required>
             </div>
             <div class="form-payment">
-                <label>CVV Number</label>
+                <label>CVV Number &emsp;</label>
                 <input type="number" name="cvv" class="form-control" max-length="3" required>
             </div>
 
-            <button class="payment-btn" name="card-purchase">Proceed For Further Details</button>
+            <button style="cursor: pointer;" class="payment-btn" name="card-purchase">Submit</button>
             <?php
             if (isset($_POST['card-purchase'])) {
                 $cardno = $_POST['cardno'];

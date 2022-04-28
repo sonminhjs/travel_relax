@@ -48,8 +48,8 @@ session_start();
     <section id="rooms-right">
         <div class="paras">
             <p class="sectionTag">A.C Delux Room</p>
-            <p class="sectionsubTag font">We have the best services provider in Room Management. with 24 hours room services and 24 hours check-out. We provide world class services in very low cost. i.e. 1100rs.</p>
-            <p class="price">Price per room : 1100Rs/-</p>
+            <p class="sectionsubTag font">We have the best services provider in Room Management. with 24 hours room services and 24 hours check-out. We provide world class services in very low cost. i.e. 1100$.</p>
+            <p class="price">Price per room : 1100$/-</p>
             <a href="room.php"><button style="border-radius: 5px;cursor: pointer;" class="price-btn ">Book A Room</button></a>
         </div>
         <div class="thumbnail">
@@ -60,8 +60,8 @@ session_start();
     <section id="rooms-left">
         <div class="paras">
             <p class="sectionTag">A.C. Room</p>
-            <p class="sectionsubTag font">We have the best services provider in Room Management. with 24 hours room services and 24 hours check-out. We provide world class services in very low cost. i.e. 900rs.</p>
-            <p class="price">Price per room : 900Rs/-</p>
+            <p class="sectionsubTag font">We have the best services provider in Room Management. with 24 hours room services and 24 hours check-out. We provide world class services in very low cost. i.e. 900$.</p>
+            <p class="price">Price per room : 900$/-</p>
             <a href="room.php"><button style="border-radius: 5px;cursor: pointer;" class="price-btn">Book A Room</button></a>
         </div>
         <div class="thumbnail">
@@ -72,8 +72,8 @@ session_start();
     <section id="rooms-right">
         <div class="paras">
             <p class="sectionTag">Non A.C. Room</p>
-            <p class="sectionsubTag font">We have the best services provider in Room Management. with 24 hours room services and 24 hours check-out. We provide world class services in very low cost. i.e. 700rs.</p>
-            <p class="price">Price per room : 700Rs/-</p>
+            <p class="sectionsubTag font">We have the best services provider in Room Management. with 24 hours room services and 24 hours check-out. We provide world class services in very low cost. i.e. 700$.</p>
+            <p class="price">Price per room : 700$/-</p>
             <a href="room.php"><button class="price-btn" style="border-radius: 5px;cursor: pointer;">Book A Room</button></a>
         </div>
         <div class="thumbnail">
@@ -139,11 +139,12 @@ session_start();
         <div class="container">
             <div class="footer-container">
                 <div class="footer-center">
-                    <h3>ABOUT US</h3>
-                    <p>The majority of independent <br> properties are losing out <br> on a lot of business for <br> one very simple reason</p>
+                    <h3>About us</h3>
+                    <!-- <p>The majority of independent <br> properties are losing out <br> on a lot of business for <br> one very simple reason</p> -->
+                    <p>Lorem ipsum dolor, sit amet consectetur <br>adipisicing elit. Iusto amet sunt, distinctio <br> qui fugiat blanditiis aliquam, natus voluptas <br>est magni alias corporis quod ratione.</p>
                 </div>
                 <div class="footer-center">
-                    <h3>USEFULL LINKS</h3>
+                    <h3>Usefull Links</h3>
                     <a href="room.php">Rooms</a>
                     <a href="contact.php">Contact Us</a>
                     <a href="food.php">Food</a>
@@ -151,11 +152,11 @@ session_start();
                     <a href="index.php">Home</a>
                 </div>
                 <div class="footer-center">
-                    <h3>CONTACT INFO</h3>
+                    <h3>Contact Info</h3>
                     <p>Viet Nam, Ha Noi <br>HK plaza relax <br>+84 9999999 <br></p>
                 </div>
                 <div class="footer-center">
-                    <h3>OPENING HOURS</h3>
+                    <h3>Openning Hours</h3>
                     <div>
                         <span>
                             <i></i>

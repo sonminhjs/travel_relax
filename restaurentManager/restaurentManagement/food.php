@@ -72,7 +72,7 @@ session_start();
                     <img src="img/dosa.png" alt="">
                     <div class="card-body">
                         <h5 class="card-title">Dosa</h5>
-                        <p class="card-text">Price : Rs 100</p>
+                        <p class="card-text">Price : 100$</p>
                         <button type="submit" name="add_to_cart" class="btnn">Add to Cart</button>
                         <input type="hidden" name="item_name" value="Dosa">
                         <input type="hidden" name="price" value="100">
@@ -87,7 +87,7 @@ session_start();
                     <img src="img/idli.jpg" alt="">
                     <div class="card-body">
                         <h5 class="card-title">Idli Sambhar</h5>
-                        <p class="card-text">Price : Rs 80</p>
+                        <p class="card-text">Price : 80$</p>
                         <button type="submit" name="add_to_cart" class="btnn">Add to Cart</button>
                         <input type="hidden" name="item_name" value="Idli">
                         <input type="hidden" name="price" value="80">
@@ -102,7 +102,7 @@ session_start();
                     <img src="img/masakadosa.jpg" alt="">
                     <div class="card-body">
                         <h5 class="card-title">Masala Dosa</h5>
-                        <p class="card-text">Price : Rs 120</p>
+                        <p class="card-text">Price : 120$</p>
                         <button type="submit" name="add_to_cart" class="btnn">Add to Cart</button>
                         <input type="hidden" name="item_name" value="Masala Dosa">
                         <input type="hidden" name="price" value="120">
@@ -116,7 +116,7 @@ session_start();
                     <img src="img/cheesedosa.jpg" alt="cheese dosa">
                     <div class="card-body">
                         <h5 class="card-title">Cheese Dosa</h5>
-                        <p class="card-text">Price : Rs 120</p>
+                        <p class="card-text">Price : 120$</p>
                         <button type="submit" name="add_to_cart" class="btnn">Add to Cart</button>
                         <input type="hidden" name="item_name" value="Cheese Dosa">
                         <input type="hidden" name="price" value="120">
@@ -131,7 +131,7 @@ session_start();
                     <img src="img/onion.jpg" alt="">
                     <div class="card-body">
                         <h5 class="card-title">Onion Utthapa</h5>
-                        <p class="card-text">Price : Rs 110</p>
+                        <p class="card-text">Price : 110$</p>
                         <button type="submit" name="add_to_cart" class="btnn">Add to Cart</button>
                         <input type="hidden" name="item_name" value="onion Utthapa">
                         <input type="hidden" name="price" value="110">
@@ -145,7 +145,7 @@ session_start();
                     <img src="img/vadasambhar.jpg" alt="">
                     <div class="card-body">
                         <h5 class="card-title">Vada Sambhar</h5>
-                        <p class="card-text">Price : Rs 120</p>
+                        <p class="card-text">Price : 120$</p>
                         <button type="submit" name="add_to_cart" class="btnn">Add to Cart</button>
                         <input type="hidden" name="item_name" value="Vada Sambhar">
                         <input type="hidden" name="price" value="120">
@@ -167,7 +167,7 @@ session_start();
                     <img src="img/chillipasta.jpg" alt="pasta">
                     <div class="card-body">
                         <h5 class="card-title">Chilli Pasta</h5>
-                        <p class="card-text">Price : Rs 200</p>
+                        <p class="card-text">Price : 200$</p>
                         <button type="submit" name="add_to_cart" class="btnn">Add to Cart</button>
                         <input type="hidden" name="item_name" value="Chili Pasta">
                         <input type="hidden" name="price" value="200">
@@ -182,7 +182,7 @@ session_start();
                     <img src="img/burger.jpg" alt="Burger">
                     <div class="card-body">
                         <h5 class="card-title">Veg Cheese Burger</h5>
-                        <p class="card-text">Price : Rs 110</p>
+                        <p class="card-text">Price : 110$</p>
                         <button type="submit" name="add_to_cart" class="btnn">Add to Cart</button>
                         <input type="hidden" name="item_name" value="Burger">
                         <input type="hidden" name="price" value="110">
@@ -197,7 +197,7 @@ session_start();
                     <img src="img/pasta.png" alt="pasta">
                     <div class="card-body">
                         <h5 class="card-title">Pasta</h5>
-                        <p class="card-text">Price : Rs 160</p>
+                        <p class="card-text">Price : 160$</p>
                         <button type="submit" name="add_to_cart" class="btnn">Add to Cart</button>
                         <input type="hidden" name="item_name" value="Pasta">
                         <input type="hidden" name="price" value="160">
@@ -211,7 +211,7 @@ session_start();
                     <img src="img/pizza.jpg" alt="">
                     <div class="card-body">
                         <h5 class="card-title">Pizza</h5>
-                        <p class="card-text">Price : Rs 250</p>
+                        <p class="card-text">Price : 250$</p>
                         <button type="submit" name="add_to_cart" class="btnn">Add to Cart</button>
                         <input type="hidden" name="item_name" value="Pizza">
                         <input type="hidden" name="price" value="250">
@@ -226,7 +226,7 @@ session_start();
                     <img src="img/margereta.jpg" alt="margereta">
                     <div class="card-body">
                         <h5 class="card-title">Margereta</h5>
-                        <p class="card-text">Price : Rs 150</p>
+                        <p class="card-text">Price : 150$</p>
                         <button type="submit" name="add_to_cart" class="btnn">Add to Cart</button>
                         <input type="hidden" name="item_name" value="Margereta">
                         <input type="hidden" name="price" value="150">
@@ -240,7 +240,7 @@ session_start();
                     <img src="img/capsi.jpg" alt="capsi">
                     <div class="card-body">
                         <h5 class="card-title">New Capsi Pizza</h5>
-                        <p class="card-text">Price : Rs 160</p>
+                        <p class="card-text">Price : 160$</p>
                         <button type="submit" name="add_to_cart" class="btnn">Add to Cart</button>
                         <input type="hidden" name="item_name" value="Capsi Pizza">
                         <input type="hidden" name="price" value="160">
@@ -254,7 +254,7 @@ session_start();
 
     </div>
     <!-- ------------------------------------Mah------------------------------------------- -->
-    <h1 class="food-h">Japan</h1>
+    <h1 class="food-h">Germany</h1>
     <div class="row" id="mah">
 
         <div class="col-lg-3">
@@ -264,7 +264,7 @@ session_start();
                     <img src="img/handi.jpg" alt="">
                     <div class="card-body">
                         <h5 class="card-title">Veg Handi</h5>
-                        <p class="card-text">Price : Rs 100</p>
+                        <p class="card-text">Price : 100$</p>
                         <button type="submit" name="add_to_cart" class="btnn">Add to Cart</button>
                         <input type="hidden" name="item_name" value="Handi">
                         <input type="hidden" name="price" value="100">
@@ -279,7 +279,7 @@ session_start();
                     <img src="img/maratha.jpg" alt="">
                     <div class="card-body">
                         <h5 class="card-title">Veg Maratha</h5>
-                        <p class="card-text">Price : Rs 140</p>
+                        <p class="card-text">Price : 140$</p>
                         <button type="submit" name="add_to_cart" class="btnn">Add to Cart</button>
                         <input type="hidden" name="item_name" value="Maratha">
                         <input type="hidden" name="price" value="140">
@@ -294,7 +294,7 @@ session_start();
                     <img src="img/mah.png" alt="">
                     <div class="card-body">
                         <h5 class="card-title">maharashtrian specian Thali</h5>
-                        <p class="card-text">Price : Rs 360</p>
+                        <p class="card-text">Price : 360$</p>
                         <button type="submit" name="add_to_cart" class="btnn">Add to Cart</button>
                         <input type="hidden" name="item_name" value="maharshtra thali">
                         <input type="hidden" name="price" value="360">
@@ -308,7 +308,7 @@ session_start();
                     <img src="img/sandwich.jpg" alt="">
                     <div class="card-body">
                         <h5 class="card-title">Sandwich</h5>
-                        <p class="card-text">Price : Rs 100</p>
+                        <p class="card-text">Price : 100$</p>
                         <button type="submit" name="add_to_cart" class="btnn">Add to Cart</button>
                         <input type="hidden" name="item_name" value="sandwich">
                         <input type="hidden" name="price" value="100">
@@ -323,7 +323,7 @@ session_start();
                     <img src="img/panner.png" alt="">
                     <div class="card-body">
                         <h5 class="card-title">Paneer Butter Masala</h5>
-                        <p class="card-text">Price : Rs 150</p>
+                        <p class="card-text">Price : 150$</p>
                         <button type="submit" name="add_to_cart" class="btnn">Add to Cart</button>
                         <input type="hidden" name="item_name" value="Paneer">
                         <input type="hidden" name="price" value="150">
@@ -337,7 +337,7 @@ session_start();
                     <img src="img/frenchfries.jpg" alt="">
                     <div class="card-body">
                         <h5 class="card-title">French Fries</h5>
-                        <p class="card-text">Price : Rs 150</p>
+                        <p class="card-text">Price : 150$</p>
                         <button type="submit" name="add_to_cart" class="btnn">Add to Cart</button>
                         <input type="hidden" name="item_name" value="French Fries">
                         <input type="hidden" name="price" value="150">
@@ -351,7 +351,7 @@ session_start();
 
     </div>
     <!-- ---------------------------------------punjabi------------------------------------ -->
-    <h1 class="food-h">South-Indian</h1>
+    <h1 class="food-h">Japan</h1>
     <div class="row" id="punjabi">
 
         <div class="col-lg-3">
@@ -361,7 +361,7 @@ session_start();
                     <img src="img/paneer-tikka.jpg" alt="">
                     <div class="card-body">
                         <h5 class="card-title">Paneer Tikka</h5>
-                        <p class="card-text">Price : Rs 220</p>
+                        <p class="card-text">Price : 220$</p>
                         <button type="submit" name="add_to_cart" class="btnn">Add to Cart</button>
                         <input type="hidden" name="item_name" value="Tikka">
                         <input type="hidden" name="price" value="220">
@@ -376,7 +376,7 @@ session_start();
                     <img src="img/shai.jpg" alt="">
                     <div class="card-body">
                         <h5 class="card-title">Shai Paneer</h5>
-                        <p class="card-text">Price : Rs 110</p>
+                        <p class="card-text">Price : 110$</p>
                         <button type="submit" name="add_to_cart" class="btnn">Add to Cart</button>
                         <input type="hidden" name="item_name" value="Shai Paneer">
                         <input type="hidden" name="price" value="110">
@@ -391,7 +391,7 @@ session_start();
                     <img src="img/paratha.jpg" alt="">
                     <div class="card-body">
                         <h5 class="card-title">Paneer Paratha</h5>
-                        <p class="card-text">Price : Rs 160</p>
+                        <p class="card-text">Price : 160$</p>
                         <button type="submit" name="add_to_cart" class="btnn">Add to Cart</button>
                         <input type="hidden" name="item_name" value="Paneer Paratha">
                         <input type="hidden" name="price" value="160">
@@ -405,7 +405,7 @@ session_start();
                     <img src="img/paneer3.jpg" alt="">
                     <div class="card-body">
                         <h5 class="card-title">Paneer Butter Masala</h5>
-                        <p class="card-text">Price : Rs 150</p>
+                        <p class="card-text">Price : 150$</p>
                         <button type="submit" name="add_to_cart" class="btnn">Add to Cart</button>
                         <input type="hidden" name="item_name" value="Paneer">
                         <input type="hidden" name="price" value="150">
@@ -420,7 +420,7 @@ session_start();
                     <img src="img/panner.png" alt="">
                     <div class="card-body">
                         <h5 class="card-title">Paneer Gravy</h5>
-                        <p class="card-text">Price : Rs 50</p>
+                        <p class="card-text">Price : 50$</p>
                         <button type="submit" name="add_to_cart" class="btnn">Add to Cart</button>
                         <input type="hidden" name="item_name" value="Paneer Gravy">
                         <input type="hidden" name="price" value="50">
@@ -434,7 +434,7 @@ session_start();
                     <img src="img/thartarat.jpg" alt="">
                     <div class="card-body">
                         <h5 class="card-title">Veg Thartarat</h5>
-                        <p class="card-text">Price : Rs 150</p>
+                        <p class="card-text">Price : 150$</p>
                         <button type="submit" name="add_to_cart" class="btnn">Add to Cart</button>
                         <input type="hidden" name="item_name" value="Thartarat">
                         <input type="hidden" name="price" value="150">
@@ -458,7 +458,7 @@ session_start();
                     <img src="img/paneerchilli.jpg" alt="">
                     <div class="card-body">
                         <h5 class="card-title">Paneer Chili</h5>
-                        <p class="card-text">Price : Rs 120</p>
+                        <p class="card-text">Price : 120$</p>
                         <button type="submit" name="add_to_cart" class="btnn">Add to Cart</button>
                         <input type="hidden" name="item_name" value="Paneer Chili">
                         <input type="hidden" name="price" value="120">
@@ -473,7 +473,7 @@ session_start();
                     <img src="img/manchu.png" alt="">
                     <div class="card-body">
                         <h5 class="card-title">Manchurion</h5>
-                        <p class="card-text">Price : Rs 110</p>
+                        <p class="card-text">Price : 110$</p>
                         <button type="submit" name="add_to_cart" class="btnn">Add to Cart</button>
                         <input type="hidden" name="item_name" value="Manchurion">
                         <input type="hidden" name="price" value="110">
@@ -488,7 +488,7 @@ session_start();
                     <img src="img/sezwan.jpg" alt="">
                     <div class="card-body">
                         <h5 class="card-title">Sezwan Rice</h5>
-                        <p class="card-text">Price : Rs 160</p>
+                        <p class="card-text">Price : 160$</p>
                         <button type="submit" name="add_to_cart" class="btnn">Add to Cart</button>
                         <input type="hidden" name="item_name" value="Sezwan">
                         <input type="hidden" name="price" value="160">
@@ -502,7 +502,7 @@ session_start();
                     <img src="img/nood.jpg" alt="">
                     <div class="card-body">
                         <h5 class="card-title">Veg Dry Noodles</h5>
-                        <p class="card-text">Price : Rs 120</p>
+                        <p class="card-text">Price : 120$</p>
                         <button type="submit" name="add_to_cart" class="btnn">Add to Cart</button>
                         <input type="hidden" name="item_name" value="Dry Noodels">
                         <input type="hidden" name="price" value="120">
@@ -517,7 +517,7 @@ session_start();
                     <img src="img/momo.jpg" alt="">
                     <div class="card-body">
                         <h5 class="card-title">Boiled Momos</h5>
-                        <p class="card-text">Price : Rs 170</p>
+                        <p class="card-text">Price : 170$</p>
                         <button type="submit" name="add_to_cart" class="btnn">Add to Cart</button>
                         <input type="hidden" name="item_name" value="Momos">
                         <input type="hidden" name="price" value="170">
@@ -531,7 +531,7 @@ session_start();
                     <img src="img/hakka.jpg" alt="hakks">
                     <div class="card-body">
                         <h5 class="card-title">Paneer Butter Masala</h5>
-                        <p class="card-text">Price : Rs 110</p>
+                        <p class="card-text">Price : 110$</p>
                         <button type="submit" name="add_to_cart" class="btnn">Add to Cart</button>
                         <input type="hidden" name="item_name" value="Hakka">
                         <input type="hidden" name="price" value="110">
@@ -555,7 +555,7 @@ session_start();
                     <img src="img/faluda.jpg" alt="">
                     <div class="card-body">
                         <h5 class="card-title">Faluda</h5>
-                        <p class="card-text">Price : Rs 100</p>
+                        <p class="card-text">Price : 100$</p>
                         <button type="submit" name="add_to_cart" class="btnn">Add to Cart</button>
                         <input type="hidden" name="item_name" value="Faluda">
                         <input type="hidden" name="price" value="100">
@@ -570,7 +570,7 @@ session_start();
                     <img src="img/chocochips.jpg" alt="">
                     <div class="card-body">
                         <h5 class="card-title">Choco Chips Ice-cream</h5>
-                        <p class="card-text">Price : Rs 70</p>
+                        <p class="card-text">Price : 70$</p>
                         <button type="submit" name="add_to_cart" class="btnn">Add to Cart</button>
                         <input type="hidden" name="item_name" value="Chocochips">
                         <input type="hidden" name="price" value="70">
@@ -585,7 +585,7 @@ session_start();
                     <img src="img/cmilkshake.jpg" alt="">
                     <div class="card-body">
                         <h5 class="card-title">Chocolate Milkshake</h5>
-                        <p class="card-text">Price : Rs 110</p>
+                        <p class="card-text">Price : 110$</p>
                         <button type="submit" name="add_to_cart" class="btnn">Add to Cart</button>
                         <input type="hidden" name="item_name" value="Chocolate Milk">
                         <input type="hidden" name="price" value="110">
@@ -599,7 +599,7 @@ session_start();
                     <img src="img/mangomilk.jpg" alt="">
                     <div class="card-body">
                         <h5 class="card-title">Mango Milk Shake</h5>
-                        <p class="card-text">Price : Rs 150</p>
+                        <p class="card-text">Price : 150$</p>
                         <button type="submit" name="add_to_cart" class="btnn">Add to Cart</button>
                         <input type="hidden" name="item_name" value="Mango Milk">
                         <input type="hidden" name="price" value="150">
@@ -614,7 +614,7 @@ session_start();
                     <img src="img/vanila.jpg" alt="">
                     <div class="card-body">
                         <h5 class="card-title">Vanilla Ice-cream</h5>
-                        <p class="card-text">Price : Rs 50</p>
+                        <p class="card-text">Price : 50$</p>
                         <button type="submit" name="add_to_cart" class="btnn">Add to Cart</button>
                         <input type="hidden" name="item_name" value="Vanila icecream">
                         <input type="hidden" name="price" value="50">
@@ -628,7 +628,7 @@ session_start();
                     <img src="img/strawberry.jpg" alt="">
                     <div class="card-body">
                         <h5 class="card-title">Strawberry Ice-Cream</h5>
-                        <p class="card-text">Price : Rs 170</p>
+                        <p class="card-text">Price : 170$</p>
                         <button type="submit" name="add_to_cart" class="btnn">Add to Cart</button>
                         <input type="hidden" name="item_name" value="Strawberry ice-cream">
                         <input type="hidden" name="price" value="170">
@@ -637,8 +637,6 @@ session_start();
             </form>
 
         </div>
-
-
 
     </div>
 </div>

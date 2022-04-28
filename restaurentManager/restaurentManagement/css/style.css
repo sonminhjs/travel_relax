@@ -238,7 +238,7 @@
 /* admin login page */
 .adminlogin {
   height: 700px;
-  background-color: cornflowerblue;
+  background-color: rgb(190, 198, 212);
 }
 .admin-box {
   height: 400px;
@@ -249,7 +249,7 @@
   left: 450px;
 }
 .admin-text {
-  color: white;
+  color: rgb(113, 128, 47);
   text-align: center;
   padding-top: 10px;
 }
@@ -873,9 +873,9 @@ table tr td input {
 }
 
 .feedback {
-  color: black;
+  color: rgb(148, 16, 16);
   border-radius: 2px;
-  background-color: rgb(0, 255, 0);
+  background-color: rgba(0, 255, 0, 0.425);
 }
 
 .bookinghall {

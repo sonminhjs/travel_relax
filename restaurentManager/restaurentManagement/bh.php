@@ -95,12 +95,12 @@ if (isset($_POST['hall'])) {
         <br>
 
         <tr>
-          <td>Enter E-mail:</td>
+          <td>Enter E-mail</td>
           <td><input type="text" name="email" placeholder="Enter E-Mail" title="E-mail" required></td>
         </tr>
         <br>
         <tr>
-          <td>Booking Date:</td>
+          <td>Booking Date</td>
           <!-- <td><input type="date" name="date" value="..." disabled="disabled" title="Check in" required></td>
             -->
           <td><input type="date" name="date" value="<?php echo $h; ?>" title="Check in" required></td>
@@ -109,17 +109,17 @@ if (isset($_POST['hall'])) {
         </tr>
         <br>
         <tr>
-          <td>Enter Members:</td>
+          <td>Enter Members</td>
           <td><input type="text" name="members" placeholder="Enter Members" title="Members" required></td>
         </tr>
         <br>
         <tr>
-          <td>Function Name:</td>
+          <td>Function Name</td>
           <td><input type="text" name="functions" placeholder="Enter Members" title="Members" required></td>
         </tr>
         <br>
         <td>
-        <td><input style="width:120px; height:30px; border-radius:20px; opacity:0.7;cursor: pointer;" type="submit" name="submit" value=submit></td>
+        <td><input style="width:120px; height:30px; border-radius:20px; opacity:0.7;cursor: pointer;background-color:green;color:pink" type="submit" name="submit" value=submit></td>
         </td>
 
       <?php

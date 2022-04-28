@@ -58,7 +58,7 @@ $nr = $_GET['nr'];
     <div id="r1-container">
         <h1>Please Fill Up The Form Given Below</h1>
         <form action="r3.php" method="post">
-            <h1>BOOK NOW YOUR NON AC ROOM</h1>
+            <h1>Book now your now nonAC Room</h1>
             <table>
                 <tr>
                     <td>Status</td>
@@ -66,7 +66,7 @@ $nr = $_GET['nr'];
                 </tr>
 
                 <tr>
-                    <td>name</td>
+                    <td>Name</td>
                     <td><input type="text" name="name" title="name" required></td>
                 </tr>
                 <tr>

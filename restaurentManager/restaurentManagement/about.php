@@ -13,9 +13,12 @@ include('header.php');
                 <h1 class="about-h1">Welcome To Our Website</h1>
             </div>
 
-            <p class="about-p">Room service or in-room dining is a hotel service enabling guests to choose items of food and drink for delivery to their hotel room for consumption. Room service is organised as a subdivision within the food and beverage department of high-end hotel and resort properties. It is uncommon for room service to be offered in hotels that are not high-end, or in motels. Room service may also be provided for guests on cruise ships. Room service may be provided on a 24-hour basis or limited to late night hours only.</p>
+            <!-- 
+                
+             -->
             <br>
             <!-- <p class="about-p">Room service or in-room dining is a hotel service enabling guests to choose items of food and drink for delivery to their hotel room for consumption. Room service is organised as a subdivision within the food and beverage department of high-end hotel and resort properties. It is uncommon for room service to be offered in hotels.</p> -->
+            <p class="about-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet dolor voluptates aliquam earum. Temporibus dicta amet saepe suscipit non dolor, soluta cum? Incidunt temporibus ea perferendis quos cupiditate architecto asperiores.</p>
         </div>
     </div>
     <div class="about-box">

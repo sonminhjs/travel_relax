@@ -110,6 +110,9 @@ include('dbcon.php');
     } else {
     ?>
         <section id="rooms-right">
+            <div class="thumbnail">
+                <img src="img/delux2.jpg" alt="delux" class="imgFluid">
+            </div>
             <div class="paras">
                 <p class="sectionTag">Delux Ac Room</p>
                 <p class="sectionsubTag r">Status : not Available </p>
@@ -155,6 +158,9 @@ include('dbcon.php');
     } else {
     ?>
         <section id="rooms-right">
+            <div class="thumbnail">
+                <img src="img/deluxroom.jpg" alt="delux" class="imgFluid">
+            </div>
             <div class="paras">
                 <p class="sectionTag"> Ac Room</p>
                 <p class="sectionsubTag r">Status : not Available </p>
@@ -179,7 +185,7 @@ include('dbcon.php');
         <section id="rooms-right">
             <div class="paras">
                 <p class="sectionTag">Non A.C. Room</p>
-                <p class="sectionsubTag g">Status :Available </p>
+                <p class="sectionsubTag g">Status : Available </p>
                 <p class="sectionsubTag ">Price per room : 700$</p>
                 <form action="r3.php" method="get">
                     <input type="date" name="ci" value="<?php echo $ci; ?>" required>
@@ -200,6 +206,9 @@ include('dbcon.php');
     } else {
     ?>
         <section id="rooms-right">
+            <div class="thumbnail">
+                <img src="img/delux3.jpg" alt="delux" class="imgFluid">
+            </div>
             <div class="paras">
                 <p class="sectionTag">Non Ac Room</p>
                 <p class="sectionsubTag r">Status : not Available </p>

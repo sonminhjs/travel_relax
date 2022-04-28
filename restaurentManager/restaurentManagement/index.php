@@ -17,7 +17,7 @@ session_start();
 <body>
     <nav class="navbar">
         <div class="left-nav">
-            <img src="img/logo.png" alt="logo">
+            <img src="img/logo1.jpg" alt="logo1">
         </div>
         <div class="right-nav">
             <ul>

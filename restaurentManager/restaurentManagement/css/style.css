@@ -531,6 +531,7 @@ table tr td input {
   font-size: 20px;
   /* font-family: "Rubik", sans-serif; */
   font-family: Consolas, monaco, monospace;
+  color: red;
 }
 .book-p {
   font-size: 14px;

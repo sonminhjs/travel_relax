@@ -30,6 +30,7 @@
 }
 .right-nav ul li {
   list-style: none;
+  cursor: pointer;
 }
 .right-nav ul li a {
   text-decoration: none;
@@ -68,7 +69,7 @@
 }
 #home .h1 {
   color: white;
-  font-size: 2.8rem;
+  font-size: 2.6rem;
   padding: 12px;
   text-align: center;
 }
@@ -192,7 +193,7 @@
 }
 .sectionTag {
   color: black;
-  font-size: 40px;
+  font-size: 35px;
   font-weight: 600;
   margin-bottom: 10px;
 }
@@ -218,11 +219,14 @@
   width: 700px;
 }
 .price-btn {
-  width: 80%;
-  background-color: rgb(20, 37, 220);
+  width: 180px;
+  background-color: red;
   color: white;
   margin-top: 20px;
   padding: 6px 0;
+  height: 50px;
+  font-size: 25px;
+  cursor: pointer;
 }
 .thumbnail img {
   padding-right: 10px;
@@ -238,21 +242,22 @@
 /* admin login page */
 .adminlogin {
   height: 700px;
-  background-color: rgb(190, 198, 212);
+  background-color: cornflowerblue;
 }
 .admin-box {
   height: 400px;
   width: 600px;
-  background-color: rgb(205, 99, 120);
+  background-color: crimson;
   position: relative;
   top: 150px;
   left: 450px;
 }
 .admin-text {
-  color: rgb(113, 128, 47);
+  color: white;
   text-align: center;
   padding-top: 10px;
 }
+
 table tr td input {
   border: none;
   outline: none;
@@ -349,20 +354,23 @@ table tr td input {
   margin: 5px;
 }
 .card-title {
-  font-size: 20px;
-  padding-top: 5px;
+  font-size: 25px;
+  padding-top: 10px;
 }
 .card-text {
-  font-size: 18px;
-  padding-top: 5px;
+  font-size: 25px;
+  padding-top: 8px;
 }
 .btnn {
   background-color: yellow;
   padding: 5px;
-  border-radius: 5px;
+  border-radius: 3px;
   outline: none;
   border: none;
   margin-top: 9px;
+  width: 50%;
+  height: 35px;
+  font-size: 25px;
   cursor: pointer;
 }
 /* Cart page */
@@ -457,7 +465,7 @@ table tr td input {
   background-color: tomato;
   border-radius: 8px;
 }
-/*  Booki g hall */
+/*  Booking hall */
 
 #booking-hall {
   display: flex;
@@ -465,10 +473,16 @@ table tr td input {
   padding: 3px 200px;
   justify-content: center;
   align-items: center;
-  height: 00px;
+  height: 100px;
   margin-bottom: 100px;
   margin-top: 150px;
 }
+
+#booking-hall .booking-div{
+  border: 5px;
+  border-color: #30475e;
+}
+
 #booking-hall::before {
   position: absolute;
   content: "";
@@ -480,7 +494,7 @@ table tr td input {
 }
 #booking-hall .h1 {
   /* color: white; */
-  font-size: 2.8rem;
+  font-size: 40px;
   padding: 12px;
   text-align: center;
 }
@@ -489,6 +503,18 @@ table tr td input {
   text-align: center;
   font-size: 1.5rem;
 }
+
+#booking-hall #book-btn{
+  background-color: #30475e;
+  border-color: #75cfb8;
+}
+
+#booking-hall #book-btn .booking-installer{
+  color: #f0f0f0;
+  font-size: 35px;
+  font-weight: 500;
+}
+
 .span {
   font-weight: bold;
   font-size: 1.53rem;
@@ -531,7 +557,6 @@ table tr td input {
   font-size: 20px;
   /* font-family: "Rubik", sans-serif; */
   font-family: Consolas, monaco, monospace;
-  color: red;
 }
 .book-p {
   font-size: 14px;
@@ -685,6 +710,7 @@ table tr td input {
   font-size: 1.8rem;
   font-weight: 400;
   margin-bottom: 1rem;
+  color: red;
 }
 
 /* about */
@@ -703,6 +729,7 @@ table tr td input {
 .about {
   display: flex;
   margin: 30px;
+  padding: 30px;
 }
 .about1 img {
   border-radius: 10px;
@@ -733,6 +760,7 @@ table tr td input {
 }
 .about-box-1 {
   display: flex;
+  margin-bottom: 100px;
 }
 .box1 {
   border: 3px solid black;
@@ -874,17 +902,18 @@ table tr td input {
 }
 
 .feedback {
-  color: rgb(148, 16, 16);
+  color: rgb(217, 255, 0);
   border-radius: 2px;
-  background-color: rgba(0, 255, 0, 0.425);
+  background-color: rgb(0, 195, 255);
 }
 
 .bookinghall {
-  color: rgb(253, 3, 3);
-  background-color: green;
-  cursor: pointer;
-}
-.bookinghall1 {
-  color: rgba(255, 0, 43, 0.858);
-  font-size: 1.5rem;
+  margin-top: 10px;
+  width: 70%;
+  height: 50px;
+  background-color: red;
+  border-radius: 5px;
+  color: #f0f0f0;
+  font-size: 27px;
+  font-weight: 500;
 }

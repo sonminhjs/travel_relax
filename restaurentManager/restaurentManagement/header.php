@@ -18,15 +18,15 @@
         </div>
         <div class="right-nav">
             <ul>
-                <li class="item"><a href="index.php">Home</a></li>
-                <li class="item"><a href="about.php">About Us</a></li>
-                <li class="item"><a href="room.php">Rooms</a></li>
-                <li class="item"><a href="food.php">Food</a></li>
-                <li class="item"><a href="contact.php">Contact Us</a></li>
-                <li class="item"><a href="cart.php">Cart</a></li>
-                <li class="item"><a href="admin.php">Admin</a></li>
-                <li class="item"><a href="bookinghall.php">Booking</a></li>
-                <li class="item"><a href="feedback.php">Feedback</a></li>
+                <li class="item"><a href="index.php">Trang chủ</a></li>
+                <li class="item"><a href="about.php">Giới thiệu</a></li>
+                <li class="item"><a href="room.php">Đặt phòng</a></li>
+                <li class="item"><a href="food.php">Ẩm thực</a></li>
+                <li class="item"><a href="contact.php">Liên hệ</a></li>
+                <li class="item"><a href="cart.php">Giỏ hàng</a></li>
+                <li class="item"><a href="admin.php">Ban quản lí</a></li>
+                <li class="item"><a href="bookinghall.php">Đặt bàn</a></li>
+                <li class="item"><a href="feedback.php">Phản hồi</a></li>
                 
             </ul>
         </div>

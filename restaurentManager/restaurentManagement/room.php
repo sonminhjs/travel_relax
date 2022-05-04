@@ -22,16 +22,16 @@ include('dbcon.php');
 </div>
 
 <div id="f1">
-    <h2 class="room-h2"><i class="fas fa-hotel"></i> Search Your Rooms Here</h2>
+    <h2 class="room-h2"><i class="fas fa-hotel"></i>Tìm kiếm phòng của bạn tại đây:</h2>
     <form action="room.php " method="get">
         <center>
             <table>
                 <tr>
 
-                    <th width="20%" height="50px" required>Arrivals-Date</th>
-                    <th width="20%" height="50px" required>Leavings-Date</th>
-                    <th width="20%" height="50px">Room</th>
-                    <td rowspan="2"><input style="border-radius : 5px;cursor: pointer;" type="submit" name="sub" id="check-btn" value="Check"></td>
+                    <th width="20%" height="50px" required>Ngày đến: </th>
+                    <th width="20%" height="50px" required>Ngày đi: </th>
+                    <th width="20%" height="50px">Phòng: </th>
+                    <td rowspan="2"><input style="border-radius : 5px; cursor: pointer; width: 40px; height: 20px" type="submit" name="sub" id="check-btn" value="Kiểm tra"></td>
                 </tr>
                 <tr>
 
@@ -42,8 +42,8 @@ include('dbcon.php');
                         <center><input type="date" name="co" required></center>
                     </td>
                     <td width="20%" height="50px">
-                        <center> <select style="background-color: pink;cursor: pointer;" name="room">
-                                <option>Select</option>
+                        <center> <select style="background-color: pink;" name="room">
+                                <option>Số lượng </option>
                                 <option>1</option>
                                 <option>2</option>
                                 <option>3</option>
@@ -57,21 +57,20 @@ include('dbcon.php');
 
                             </select></center>
     </form>
-
+ 
     </td>
     </tr>
     </table>
     </center>
     <?php
     $r = '';
-    if (isset($_GET['sub'])) {
-
+    if(isset($_GET['sub'])) {
         $r = $_GET['room'];
         $ci = $_GET['ci'];
         $co = $_GET['co'];
     }
     // echo "test";
-    echo $r;
+   echo $r ;
     ?>
     <!---------------------------------  delux ac--------------------- -->
 
@@ -88,15 +87,16 @@ include('dbcon.php');
     ?>
         <section id="rooms-right">
             <div class="paras">
-                <p class="sectionTag">Delux A.C. Room</p>
-                <p class="sectionsubTag g">Status : Available </p>
-                <p class="sectionsubTag ">Price per room : 1100$</p>
+                <p class="sectionTag">Phòng cao cấp</p>
+                <p class="sectionsubTag g">Tình trạng: còn phòng</p>
+                <p class="sectionsubTag ">Giá phòng: 6.000.000đ/ngày</p>
                 <form action="r1.php" method="get">
                     <input type="date" name="ci" value="<?php echo $ci; ?>" required>
                     <input type="date" name="co" value="<?php echo $co; ?>" required>
-                    <input type="text" name="rt" value="Delux AC" required>
+                    <input type="text" name="rt" value="Phòng cao cấp" required>
                     <input type="text" name="nr" value="<?php echo $r; ?>" required>
-                    <input style="border-radius : 5px;cursor: pointer;" type="submit" id="room-btn">
+                    <!-- <input style="border-radius : 5px;" type="submit" id="room-btn"> -->
+                    <button type="submit" class="bookinghall">Đặt phòng</button>
                 </form>
                 <br>
                 <!-- <a href="r1.php">Book A Room</a> -->
@@ -110,13 +110,10 @@ include('dbcon.php');
     } else {
     ?>
         <section id="rooms-right">
-            <div class="thumbnail">
-                <img src="img/delux2.jpg" alt="delux" class="imgFluid">
-            </div>
             <div class="paras">
-                <p class="sectionTag">Delux Ac Room</p>
-                <p class="sectionsubTag r">Status : not Available </p>
-                <p class="sectionsubTag r">Sorry, Please come another day</p>
+                <p class="sectionTag">Phòng cao cấp</p>
+                <p class="sectionsubTag r">Tình trạng: hết phòng</p>
+                <p class="sectionsubTag r">Xin lỗi, quý khách vui lòng quay lại vào ngày khác</p>
             </div>
         </section>
     <?php
@@ -136,15 +133,16 @@ include('dbcon.php');
     ?>
         <section id="rooms-right">
             <div class="paras">
-                <p class="sectionTag"> A.C. Room</p>
-                <p class="sectionsubTag g">Status : Available </p>
-                <p class="sectionsubTag ">Price per room : 900$</p>
+                <p class="sectionTag">Phòng tiêu chuẩn</p>
+                <p class="sectionsubTag g">Tình trạng: còn phòng</p>
+                <p class="sectionsubTag ">Giá phòng: 3.000.000đ/ngày</p>
                 <form action="r2.php" method="get">
                     <input type="date" name="ci" value="<?php echo $ci; ?>" required>
                     <input type="date" name="co" value="<?php echo $co; ?>" required>
-                    <input type="text" name="rt" value="A.C. Room" required>
+                    <input type="text" name="rt" value="Phòng tiêu chuẩn" required>
                     <input type="text" name="nr" value="<?php echo $r; ?>" required>
-                    <input style="border-radius : 5px;cursor: pointer;" type="submit" id="room-btn">
+                    <!-- <input style="border-radius : 5px;" type="submit" id="room-btn"> -->
+                    <button type="submit" class="bookinghall">Đặt phòng</button>
                 </form>
                 <br>
                 <!-- <a href="r1.php">Book A Room</a> -->
@@ -158,13 +156,10 @@ include('dbcon.php');
     } else {
     ?>
         <section id="rooms-right">
-            <div class="thumbnail">
-                <img src="img/deluxroom.jpg" alt="delux" class="imgFluid">
-            </div>
             <div class="paras">
-                <p class="sectionTag"> Ac Room</p>
-                <p class="sectionsubTag r">Status : not Available </p>
-                <p class="sectionsubTag r">Sorry, Please come another day</p>
+                <p class="sectionTag">Phòng tiêu chuẩn</p>
+                <p class="sectionsubTag r">Tình trạng: hết phòng</p>
+                <p class="sectionsubTag r">Xin lỗi, quý khách vui lòng quay lại vào ngày khác</p>
             </div>
         </section>
     <?php
@@ -184,15 +179,16 @@ include('dbcon.php');
     ?>
         <section id="rooms-right">
             <div class="paras">
-                <p class="sectionTag">Non A.C. Room</p>
-                <p class="sectionsubTag g">Status : Available </p>
-                <p class="sectionsubTag ">Price per room : 700$</p>
+                <p class="sectionTag">Phòng bình dân</p>
+                <p class="sectionsubTag g">Tình trạng: còn phòng</p>
+                <p class="sectionsubTag ">Giá phòng: 1.200.000đ/ngày</p>
                 <form action="r3.php" method="get">
                     <input type="date" name="ci" value="<?php echo $ci; ?>" required>
                     <input type="date" name="co" value="<?php echo $co; ?>" required>
-                    <input type="text" name="rt" value="Non AC" required>
+                    <input type="text" name="rt" value="Phòng bình dân" required>
                     <input type="text" name="nr" value="<?php echo $r; ?>" required>
-                    <input style="border-radius : 5px;cursor: pointer;" type="submit" id="room-btn">
+                    <!-- <input style="border-radius : 5px;" type="submit" id="room-btn"> -->
+                    <button type="submit" class="bookinghall">Đặt phòng</button>
                 </form>
                 <br>
                 <!-- <a href="r1.php">Book A Room</a> -->
@@ -206,13 +202,10 @@ include('dbcon.php');
     } else {
     ?>
         <section id="rooms-right">
-            <div class="thumbnail">
-                <img src="img/delux3.jpg" alt="delux" class="imgFluid">
-            </div>
             <div class="paras">
-                <p class="sectionTag">Non Ac Room</p>
-                <p class="sectionsubTag r">Status : not Available </p>
-                <p class="sectionsubTag r">Sorry, Please come another day</p>
+                <p class="sectionTag">Phòng bình dân</p>
+                <p class="sectionsubTag r">Tình trạng: hết phòng</p>
+                <p class="sectionsubTag r">Xin lỗi, quý khách vui lòng quay lại vào ngày khác</p>
             </div>
         </section>
     <?php

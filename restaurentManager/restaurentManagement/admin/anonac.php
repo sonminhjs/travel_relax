@@ -58,7 +58,7 @@ include('../dbcon.php');
 
     .imgg {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
         margin-top: 10px;
     }
 

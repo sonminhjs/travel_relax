@@ -58,8 +58,8 @@ include('../dbcon.php');
 
     .imgg {
         display: flex;
-        justify-content: space-evenly;
-        margin-top: 10px;
+        justify-content: space-between;
+        margin-top: 15px;
     }
 
     img {
@@ -89,7 +89,7 @@ include('../dbcon.php');
     </div>
     <h1>Delux AC Rooms insert Section</h1>
     <div class="imgg">
-        <img src="../img/acroom2.jpg" alt="delux ac">
+        <img src="../img/park_view.jpg" alt="delux ac">
         <img src="../img/delux3.jpg" alt="delux ac">
     </div>
 

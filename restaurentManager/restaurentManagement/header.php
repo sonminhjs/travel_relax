@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,6 +12,7 @@
     <script src="https://kit.fontawesome.com/d30f0f34ff.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&family=Rubik:wght@400;900&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <nav class="navbar">
         <div class="left-nav">
@@ -27,7 +29,7 @@
                 <li class="item"><a href="admin.php">Admin</a></li>
                 <li class="item"><a href="bookinghall.php">Booking</a></li>
                 <li class="item"><a href="feedback.php">Feedback</a></li>
-                
+
             </ul>
         </div>
     </nav>

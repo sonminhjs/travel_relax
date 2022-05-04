@@ -64,7 +64,7 @@
   width: 100%;
   z-index: -1;
   opacity: 0.89;
-  background: url("../img/slider1.jpg") center center/cover no-repeat;
+  background: url("../img/hotel_LonDon.jpg") center center/cover no-repeat;
 }
 #home .h1 {
   color: white;
@@ -131,7 +131,7 @@
   width: 100%;
   z-index: -1;
   opacity: 0.89;
-  background: url("../img/feedback.jpg") center center/cover no-repeat;
+  background: url("../img/img_feedback.jpg") center center/cover no-repeat;
 }
 
 #feedback-form {
@@ -476,7 +476,7 @@ table tr td input {
   width: 100%;
   z-index: -1;
   opacity: 0.89;
-  background: url("../img/bookhall2.png") center center/cover no-repeat;
+  background: url("../img/booking_hall.jpg") center center/cover no-repeat;
 }
 #booking-hall .h1 {
   /* color: white; */

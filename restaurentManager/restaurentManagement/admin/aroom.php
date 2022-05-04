@@ -36,7 +36,7 @@
     </div>
     <div class="h1">
         <h1>Welcome Admin, To Admin Room Home Section</h1>
-        <img src="../img/hotel2.jpg" alt="">
+        <img src="../img/hotel_LonDon.jpg" alt="">
     </div>
 </body>
 

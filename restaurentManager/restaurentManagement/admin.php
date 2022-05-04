@@ -17,7 +17,7 @@ include('dbcon.php');
                         <td width="50%" height="50px"> <input type="Password" name="ps" id="password" title="Enter Password"></td>
                     </tr>
                     <tr>
-                        <td colspan="2"><input style="cursor: pointer;background-color : blue;color: rgb(113, 128, 47);" type="submit" name="sub" id="btn" value="Login"></td>
+                        <td colspan="2"><input style="cursor: pointer;background-color : crimson;color: black;" type="submit" name="sub" id="btn" value="Login"></td>
                     </tr>
             </form>
             <?php

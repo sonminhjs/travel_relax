@@ -103,7 +103,7 @@ if (isset($_POST['hall'])) {
           <td>Booking Date</td>
           <!-- <td><input type="date" name="date" value="..." disabled="disabled" title="Check in" required></td>
             -->
-          <td><input type="date" name="date" value="<?php echo $h; ?>" title="Check in" required></td>
+          <td><input type="date" name="date" value="<?php echo $h; ?>" disabled=" disabled" title="Check in" required></td>
 
 
         </tr>

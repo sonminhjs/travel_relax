@@ -98,7 +98,7 @@ session_start();
                 <p class="center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, assumenda magni sequi maxime ullam magnam minima porro tempore enim sed quidem sint provident facere fugiat facilis qui saepe quia? Aut, repudiandae?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas nulla sit, perspiciatis temporibus unde </p>
             </div>
             <div class="box">
-                <a href="food.php"><img src="img/mah.png" alt="maharshtrian"></a>
+                <a href="food.php"><img src="img/shushi.jpg" alt="maharshtrian"></a>
                 <h2 class="h-secondary center">Germany</h2>
                 <p class="center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, assumenda magni sequi maxime ullam magnam minima porro tempore enim sed quidem sint provident Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure mollitia aliquid labore illum ipsa aliquam ad, commodi voluptatum libero minima nesciunt autem quis minus nostrum.</p>
             </div>

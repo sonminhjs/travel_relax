@@ -49,8 +49,8 @@ session_start();
         <div class="paras">
             <p class="sectionTag">A.C Delux Room</p>
             <p class="sectionsubTag font">We have the best services provider in Room Management. with 24 hours room services and 24 hours check-out. We provide world class services in very low cost. i.e. 1100$.</p>
-            <p class="price">Price per room : 1100$/-</p>
-            <a href="room.php"><button style="border-radius: 5px;cursor: pointer;" class="price-btn ">Book A Room</button></a>
+            <!-- <p class="price">Price per room : 1100$/-</p> -->
+            <a href="about.php"><button style="border-radius: 5px;cursor: pointer;" class="price-btn ">Read more</button></a>
         </div>
         <div class="thumbnail">
             <img src="img/deluxroom.jpg" alt="delux" class="imgFluid">
@@ -61,8 +61,8 @@ session_start();
         <div class="paras">
             <p class="sectionTag">A.C. Room</p>
             <p class="sectionsubTag font">We have the best services provider in Room Management. with 24 hours room services and 24 hours check-out. We provide world class services in very low cost. i.e. 900$.</p>
-            <p class="price">Price per room : 900$/-</p>
-            <a href="room.php"><button style="border-radius: 5px;cursor: pointer;" class="price-btn">Book A Room</button></a>
+            <!-- <p class="price">Price per room : 900$/-</p> -->
+            <a href="about.php"><button style="border-radius: 5px;cursor: pointer;" class="price-btn">Read more</button></a>
         </div>
         <div class="thumbnail">
             <img src="img/ac4.jpg" alt="delux" class="imgFluidd">
@@ -73,8 +73,8 @@ session_start();
         <div class="paras">
             <p class="sectionTag">Non A.C. Room</p>
             <p class="sectionsubTag font">We have the best services provider in Room Management. with 24 hours room services and 24 hours check-out. We provide world class services in very low cost. i.e. 700$.</p>
-            <p class="price">Price per room : 700$/-</p>
-            <a href="room.php"><button class="price-btn" style="border-radius: 5px;cursor: pointer;">Book A Room</button></a>
+            <!-- <p class="price">Price per room : 700$/-</p> -->
+            <a href="about.php"><button class="price-btn" style="border-radius: 5px;cursor: pointer;">Read more</button></a>
         </div>
         <div class="thumbnail">
             <img src="img/nonacroom.jpg" alt="delux" class="imgFluid">
@@ -88,19 +88,20 @@ session_start();
             <div class="box">
                 <a href="food.php"><img src="img/manchu.png" alt="manchurion"></a>
                 <h2 class="h-secondary center">Chinese</h2>
-                <p class="center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, assumenda magni sequi maxime ullam magnam minima porro tempore enim sed quidem sint provident facere fugiat facilis qui saepe quia? Aut, repudiandae?
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. amet consectetur adipisicing elit. Quas nulla sit, perspiciatis temporibus unde
+                <p class="center">China's culinary culture is extremely diverse and unique, but it still retains the unique characteristics of each region, rich and has a great influence on the cuisine of other countries in the region.
+                    The dish must be delicious, beautiful, have the sweetest aroma, still have the fresh taste of ingredients, attractive and impressive presentation.
                 </p>
             </div>
             <div class="box">
                 <a href="food.php"><img src="img/pasta.png" alt="pasta"></a>
                 <h2 class="h-secondary center">Italian</h2>
-                <p class="center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, assumenda magni sequi maxime ullam magnam minima porro tempore enim sed quidem sint provident facere fugiat facilis qui saepe quia? Aut, repudiandae?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas nulla sit, perspiciatis temporibus unde </p>
+                <p class="center">Italian cuisine has a wide variety of commonly used ingredients, from fruits, sauces, meats, and more. In Northern Italy, fish (such as cod), potatoes, rice, corn, sausages, pork, and various cheeses are the most common ingredients. Pasta dishes using tomatoes are popular throughout Italy ,Italian food is really great, you should try it.</p>
             </div>
             <div class="box">
                 <a href="food.php"><img src="img/shushi.jpg" alt="maharshtrian"></a>
                 <h2 class="h-secondary center">Germany</h2>
-                <p class="center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, assumenda magni sequi maxime ullam magnam minima porro tempore enim sed quidem sint provident Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure mollitia aliquid labore illum ipsa aliquam ad, commodi voluptatum libero minima nesciunt autem quis minus nostrum.</p>
+                <p class="center">German cuisine has evolved into a national cuisine through centuries of social and political change with variations from region to region. Cuisine in Germany is very diverse and varies from region to region.
+                    The southern regions of Germany, including Bavaria and neighboring Schwaben, have many similar cuisines. However, the ingredients and dishes vary by region.</p>
             </div>
         </div>
 
@@ -108,20 +109,18 @@ session_start();
             <div class="box">
                 <a href="food.php"><img src="img/panner.png" alt="panner"></a>
                 <h2 class="h-secondary center">Japan</h2>
-                <p class="center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, assumenda magni sequi maxime ullam magnam minima porro tempore enim sed quidem sint provident facere fugiat facilis qui saepe quia? Aut, repudiandae?
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus reiciendis saepe error modi quo vel!
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                <p class="center">Japanese cuisine is the cuisine originating from Japan. Japanese cuisine does not abuse too many spices, but focuses on highlighting the fresh, pure, natural flavors of the dish. The taste of Japanese food is usually ethereal, gentle and suitable for each season. Due to the geographical location surrounded by the sea on all sides, seafood and seaweed make up the majority of the Japanese diet. The main food of the Japanese is rice.
                 </p>
             </div>
             <div class="box">
                 <a href="food.php"><img src="img/dosa.png" alt="dosa"></a>
                 <h2 class="h-secondary center">South-Indian</h2>
-                <p class="center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, assumenda magni sequi maxime ullam magnam minima porro tempore enim sed quidem sint provident facere fugiat facilis qui saepe quia? Aut, repudiandae?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas nulla sit, perspiciatis temporibus unde </p>
+                <p class="center">Indian cuisine is characterized by the use of spices, other herbs and vegetables and sometimes fruit grown in India and also by the popular vegetarian diet in some parts of the society. Indian Association, Each region in India has its own culinary characteristics and cooking techniques. As a result, vegetal styles vary by region, reflecting the diverse demographics of the ethnically diverse Indian subcontinent.</p>
             </div>
             <div class="box">
                 <a href="food.php"><img src="img/faluda.png" alt="faluda"></a>
                 <h2 class="h-secondary center">VietNam</h2>
-                <p class="center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, assumenda magni sequi maxime ullam magnam minima porro tempore enim sed quidem sint provident Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure mollitia aliquid labore illum ipsa aliquam ad, commodi voluptatum libero minima nesciunt autem quis minus nostrum.</p>
+                <p class="center">Vietnamese cuisine is the name of the cooking method, the principle of mixing spices and the general eating habits of the Vietnamese community and the Vietnamese ethnic groups in Vietnam. Although there are many differences, Vietnamese cuisine still contains the most general meaning to refer to all the dishes that are popular in the ethnic minority community but have been relatively popular in the Vietnamese community.</p>
             </div>
         </div>
 
@@ -130,7 +129,7 @@ session_start();
 
     <section id="booking-hall">
         <h1 class="h1">Party And Marriage Halls</h1>
-        <button id="book-btn" style="border-radius: 5px;"><a href="bookinghall.php"> Book A Hall Now</a></button>
+        <button id="book-btn" style="border-radius: 5px;"><a href="bookinghall.php"> Book a hall</a></button>
 
     </section>
     <!-- -------------------------Footer ---------------------------- -->
@@ -141,7 +140,7 @@ session_start();
                 <div class="footer-center">
                     <h3>About us</h3>
                     <!-- <p>The majority of independent <br> properties are losing out <br> on a lot of business for <br> one very simple reason</p> -->
-                    <p>Lorem ipsum dolor, sit amet consectetur <br>adipisicing elit. Iusto amet sunt, distinctio <br> qui fugiat blanditiis aliquam, natus voluptas <br>est magni alias corporis quod ratione.</p>
+                    <p>Coming to our hotel, you will experience wonderful things that you can hardly find anywhere else, come and experience it right away.</p>
                 </div>
                 <div class="footer-center">
                     <h3>Usefull Links</h3>

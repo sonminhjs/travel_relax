@@ -9,7 +9,7 @@ session_start();
 
     <div class="rowe">
         <div class="col-lg-12">
-            <h1>My Cart</h1>
+            <h2>My Cart</h2>
         </div>
         <div class="col-lg-8">
             <table class="table">

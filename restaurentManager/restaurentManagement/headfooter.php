@@ -4,7 +4,7 @@
             <div class="footer-center">
                 <h3>About us</h3>
                 <!-- <p>The majority of independent <br> properties are losing out <br> on a lot of business for <br> one very simple reason: <br> their hotel websites are poorly <br> designed.</p> -->
-                <p>Lorem ipsum dolor, sit amet consectetur <br>adipisicing elit. Iusto amet sunt, distinctio <br> qui fugiat blanditiis aliquam, natus voluptas <br>est magni alias corporis quod ratione.</p>
+                <p>Coming to our hotel, you will experience wonderful things that you can hardly find anywhere else, come and experience it right away.</p>
             </div>
             <div class="footer-center">
                 <h3>Usefull Links</h3>
@@ -45,8 +45,6 @@
                     </span>
                     Sat-Sun: 7 Am - 12 Pm
                 </div>
-
-
             </div>
         </div>
     </div>

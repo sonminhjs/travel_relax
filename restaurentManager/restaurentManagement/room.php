@@ -1,6 +1,10 @@
+<!-- Dong 82 room.php;
+// $rno = $row['roomno']; -->
+
 <?php
 include('header.php');
 include('dbcon.php');
+
 ?>
 <style>
     .room-status {
@@ -70,7 +74,6 @@ include('dbcon.php');
         $ci = $_GET['ci'];
         $co = $_GET['co'];
     }
-    // echo "test";
     echo $r;
     ?>
     <!---------------------------------  delux ac--------------------- -->
@@ -79,7 +82,7 @@ include('dbcon.php');
     $qryy = "SELECT * FROM `deluxacroom` WHERE `status`='un book'";
     $run = mysqli_query($sql, $qryy);
     $row = mysqli_fetch_assoc($run);
-    $rno = $row['roomno'];
+    // $rno = $row['roomno'];
 
     $qry = "SELECT * FROM `deluxacroom` WHERE `status`='un book'";
     $run = mysqli_query($sql, $qry);
